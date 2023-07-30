@@ -1,0 +1,211 @@
+body{
+  background-color: white;  
+}
+#entete{
+    width: 100%;
+    height:150px;
+    box-shadow: 0px 3px 3px 0px gainsboro;
+}
+#logo{
+   width: 100px;
+   height: 100px;
+    background-image: url(BUL.png);
+    background-position: right;
+    background-size: 200px;
+    margin-left: 100px;
+    margin-top: 5px;
+    box-shadow: 1px 3px 3px 1px gainsboro;
+}
+#logo1{
+  width: 100px;
+  height: 100px;
+   background-image: url(BUL.png);
+   background-position: left;
+   background-size: 180px;
+   margin-left: 1100px;
+   margin-top: -70px;
+   box-shadow: 1px 2px 2px 1px gainsboro;
+  
+}
+#menucont{
+  border:1px rgb(96, 96, 231) dotted ;
+  width: 690px;
+  height: 50px;
+  /* margin-right: -30px; */
+  margin-left: 350px;
+  margin-top: -60px;
+  background-color: navy;
+}
+#footer{
+	display: inline-block;
+	height: 290px;
+	width: 100%;
+	background-color: #000080;
+	margin-top: 150px;
+	
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+.AD{
+	font-size: 15px;
+	
+}
+.pied{
+	text-decoration: none;
+	width: 410px;
+	margin-left: 200px;
+	margin-top: 30px;
+	font-size: 25px;
+	color: white;
+	text-align: center;
+	display: block;
+
+}
+.pied1{
+	text-decoration: none;
+	width: 410px;
+	margin-left: 675px;
+	margin-top: -170px;
+	font-size: 25px;
+	color: white;
+	text-align: center;
+
+}
+#fb{
+	border: 1px black dotted;
+	width: 25px;
+	height: 25px;
+	background-image: url(Facebook.png);
+	background-size: contain;
+	background-position: center;
+	margin-top:-20px ;
+	margin-left: 170px ;
+}
+#whats{
+	border: 1px black dotted;
+	width: 25px;
+	height: 25px;
+	background-image: url(WhatsApp_48px.png);
+	background-size: contain;
+	background-position: center;
+	margin-top:-27px ;
+	margin-left: 200px ;
+}
+#copyright{
+width: 100%;
+height: 90px;
+margin-top:135px;
+background-color: #000069;
+
+}
+#i{
+	width: 750px;
+	height: 25px;
+    margin-top: 10px;
+	margin-left: 350px;
+	text-align:center;
+}
+.liste ul li{
+display: inline-block;
+margin-right: 100px;
+font-size: 25px;
+color: white;
+}
+.liste ul li:hover{
+  display: inline-block;
+  margin-right: 75px;
+  font-size: 25px;
+  color: white;
+  background-color: black;
+  }
+#corps{
+height: 350px;
+overflow: auto;
+  }
+  @keyframes text-color-animation{
+
+	0%{
+		color: black;
+	}
+	50%{ 
+		color: red;
+	}
+	100%{
+		color: black;
+	}
+  }
+
+
+h1{
+	animation: text-color-animation 5s infinite;
+	text-align: center;
+	font-size: 50px;
+}
+#gauche1{
+	width: 900px;
+	height: 190px;
+	margin-left: 20px;
+	box-shadow: 0px 3px 3px 0px rgb(176, 176, 245);
+
+}
+#gauche2{
+	width: 900px;
+	height: 190px;
+	margin-left: 20px;
+	margin-top: 15px;
+    box-shadow: 1px 3px 3px 1px rgb(176, 176, 245);
+}
+#gauche3{
+	width: 400px;
+	height: 397px;
+	margin-left: 927px;
+	margin-top: -420px;
+	box-shadow: 1px 3px 3px 1px rgb(176, 176, 245);
+    }
+h2{
+	text-align: center;
+	text-transform: lowercase;
+	animation: text-h2-animation 2s infinite;
+}
+@keyframes text-h2-animation{
+
+	0%{
+		color: black;
+	}
+	50%{ 
+		color: navy;
+	}
+	100%{
+		color: black;
+	}
+  }
+  li{
+	display: inline-block;
+	
+  }
+nav{
+	text-align: center;
+	margin-top: -50px;
+	
+}
+  nav   a{
+	 /* float: left;    effet flottant */
+	text-decoration: none; /* pas d'héritage avec effet souligné */
+	color: #332086; /* couleur du texte */
+	background: url(rubrique_off.png); /* image de fond */
+	height: 50px; /* hauteur */
+	line-height: 33px;  /* interligne */
+	padding: 0 10px; /* marges intérieur */
+	font-family: 'Times New Roman', Times, serif; /* police d'écriture */
+	font-size: 13px; /* taille du texte */
+	text-align: center;
+	font-size: larger;
+	}
+	nav   a:hover{
+	background: url(rubrique_on.png); /* image de fond */
+	}
